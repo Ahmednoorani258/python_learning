@@ -3,7 +3,7 @@ import csv
 
 # open the csv file
 with open('nfl_offensive_stats.csv', 'r') as file:
-    # create a csv reader object
+    # create a csv reader object.
     data = list(csv.reader(file))
 
 passing_yards ={}
