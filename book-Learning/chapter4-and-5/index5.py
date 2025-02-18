@@ -1,3 +1,4 @@
+import string
 # Loops
 def num_points(word):
  """
