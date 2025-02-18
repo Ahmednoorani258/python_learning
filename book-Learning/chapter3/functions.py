@@ -44,7 +44,6 @@ def get_strong_password():
             return password
         
 # get_strong_password()
-
 def num_points(word):
  """
  Each letter is worth the following points:
