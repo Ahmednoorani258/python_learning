@@ -1,0 +1,8 @@
+Hello World
+This is a new file
+This file is created using Python
+
+
+Line 1: Karachi
+Line 2: Lahore
+Line 3: Peshawar
