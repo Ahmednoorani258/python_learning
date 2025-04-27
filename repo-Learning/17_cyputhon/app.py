@@ -5,6 +5,7 @@ import threading
 import multiprocessing
 import time
 
+
 # A CPU-bound function that performs a large number of calculations
 def cpu_bound_task(n):
     total = 0
