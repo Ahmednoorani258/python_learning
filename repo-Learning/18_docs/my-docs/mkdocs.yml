@@ -1,0 +1,45 @@
+site_name: My Docs
+
+theme: 
+    name: material
+    features:
+        - navigation.tabs
+        - navigation.top
+        - navigation.expand
+        - navigation.sections
+        - navigation.instant
+        - navigation.tracking
+        - navigation.search.highlight
+        - navigation.search.share
+        - navigation.search.suggest
+        - navigation.search.suggest.highlight
+        - navigation.search.suggest.share
+        - search.highlight
+
+nav:
+  - Home: index.md
+  - User Guide:
+      - Installation: guide/install.md
+      - Usage: guide/usage.md
+  - API Reference: api.md
+  - Tutorials:
+      - Basic Tutorial: tutorials/basic.md
+      - Advanced Tutorial: tutorials/advanced.md
+  - Getting Started:
+      - Introduction: intro.md
+      - Quick Start: quickstart.md
+  - Advanced:
+      - Configuration: advanced/config.md
+      - Deployment: advanced/deploy.md
+
+plugins:
+  - search:
+      lang: en
+      separator: '[\s\-]+'
+
+extra_css:
+  - stylesheets/custom.css
+extra_javascript:
+  - js/custom.js
+
+### **Custom Search Options**
